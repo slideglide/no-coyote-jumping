@@ -11,13 +11,14 @@
   "version": "v1.0.0",
   "developer": "slideglide",
   "description": "Disable coyote jumping in platformer mode",
-  "dependencies": {
-    "geode.node-ids": ">=v1.23.3"
+  "links": {
+    "source": "https://github.com/slideglide/no-coyote-jumping"
   },
+  "tags": ["gameplay", "offline", "cheat"],
   "settings": {
     "enabled": {
       "name": "Enabled",
-      "description": "Master toggle of the mod",
+      "description": "Self explanatory; toggles the mod.",
       "type": "bool",
       "default": true
     }
