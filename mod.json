@@ -1,0 +1,25 @@
+{
+  "geode": "5.7.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "slideglide.no-coyote-jumping",
+  "name": "No Coyote Jumping",
+  "version": "v1.0.0",
+  "developer": "slideglide",
+  "description": "Disable coyote jumping in platformer mode",
+  "dependencies": {
+    "geode.node-ids": ">=v1.23.3"
+  },
+  "settings": {
+    "enabled": {
+      "name": "Enabled",
+      "description": "Master toggle of the mod",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
